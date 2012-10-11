@@ -1,0 +1,15 @@
+{
+	"application_configure": [{
+		"url" : "http://if.dev",
+      	"environment" : "development",
+      	"layout_default" : "layoutBase.phtml"
+	}],
+
+	"database_configure":[{
+		"database_host" : "",
+		"database_port" : "",
+		"database_username" : "",
+		"database_password" : "",
+		"database_name" : ""
+	}]
+}
