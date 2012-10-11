@@ -2,6 +2,6 @@
 .project
 .gitignore
 .settings
-lib/*/
+lib/*
 
 
