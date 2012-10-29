@@ -13,6 +13,7 @@ class IndexController
 	{
 		$this->name = "ICHI FRAMEWORK 0.2";
 
-		return $this->name;
+
+		return array( "name" =>$this->name);
 	}
 }
