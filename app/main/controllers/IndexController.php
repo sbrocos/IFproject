@@ -1,6 +1,6 @@
 <?php
 
-class IndexController
+class IndexController extends IF_CONTROLLER
 {
 	public $name;
 
@@ -12,8 +12,8 @@ class IndexController
 	public function IndexAction()
 	{
 		$this->name = "ICHI FRAMEWORK 0.2";
-
-
+// 		$this->setLayout('layout.phtml');
+// 		$this->noLayout();
 		return array( "name" =>$this->name);
 	}
 }
