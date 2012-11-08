@@ -1,11 +1,12 @@
 <?php
 
 error_reporting(E_ALL);
+//error_reporting = E_ALL | E_STRICT
 ini_set('display_errors', '1');
 
 // Define path to installation directory
 if (! defined('BASE_PATH')) {
-	define('BASE_PATH', realpath(dirname(__FILE__) . '/..'));
+    define('BASE_PATH', realpath(dirname(__FILE__) . '/..'));
 }
 
 // Constante de la ruta a la carpeta /app
