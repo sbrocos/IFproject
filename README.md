@@ -13,4 +13,4 @@ La instalación, al menos de momento, de Ichi Framework, consistirá en los sigu
  - Crear la configuración necesaria en Apache para tener acceso al proyecto. Debe de activarse en el htaccess
    el modo rewrite.
  - Crear la carpeta lib. En ella descargar el proyecto de IF, y verificando que la carpeta del Framework, se llama IF.
- - PROVAR SI FUNCIONA.
+ - PROBAR SI FUNCIONA.
