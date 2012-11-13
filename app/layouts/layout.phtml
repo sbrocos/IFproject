@@ -15,16 +15,16 @@
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
 
-	<link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<style type="text/css">
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
       }
     </style>
   </head>
-	<body>
-	<div class="navbar navbar-inverse navbar-fixed-top">
+    <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -45,7 +45,10 @@
       </div>
     </div>
     <div class="container">
-		<?php print $this->contenido(); ?>
-	</div>
-	</body>
+        <?php print $this->contenido(); ?>
+        <footer>
+            &copy; <a href="http://ichiframework.es">Ichi Framework</a> 2012
+        </footer>
+    </div>
+    </body>
 </html>
