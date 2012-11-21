@@ -4,17 +4,12 @@ use ICHI\IF_CONTROLLER;
 
 class IndexController extends IF_CONTROLLER
 {
-    public $name;
-
-    public function __construct()
-    {
-        $this->name = "<em>Ichi Framework</em> V.0.1";
-    }
 
     public function IndexAction()
     {
-        $this->name = "ICHI FRAMEWORK 0.2";
-        return array( "name" =>$this->name);
+        $name = "ICHI FRAMEWORK 0.2";
+        $this->passToLayout(array( 'title' =>'Ichi Framework'));
+        return array( "name" =>$name);
     }
 
     public function AboutAction()

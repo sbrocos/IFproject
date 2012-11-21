@@ -7,7 +7,7 @@
     Remove this if you use the .htaccess -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>IF: Project Base</title>
+    <title><?php echo $this->getVarLayout('title'); ?></title>
     <meta name="description" content="Ichi Framework" />
     <meta name="author" content="Sergio Brocos" />
     <meta name="viewport" content="width=device-width; initial-scale=1.0" />
@@ -41,7 +41,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </a>
-              <a class="brand" href="/">Ichi Framework</a>
+              <a class="brand" href="/"><?php echo $this->getVarLayout('title'); ?></a>
               <div class="nav-collapse collapse">
                 <ul class="nav">
                   <li class="active"><a href="/">Home</a></li>
